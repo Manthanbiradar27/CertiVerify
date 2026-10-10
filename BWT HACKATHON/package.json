@@ -1,0 +1,14 @@
+{
+  "name": "certiverify-root",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "server": "npm --prefix server run dev",
+    "client": "npm --prefix client run dev",
+    "dev:server": "npm --prefix server run dev",
+    "dev:client": "npm --prefix client run dev",
+    "create-admin": "npm --prefix server run create-admin",
+    "seed-demo": "npm --prefix server run seed-demo",
+    "test": "npm --prefix server test"
+  }
+}
